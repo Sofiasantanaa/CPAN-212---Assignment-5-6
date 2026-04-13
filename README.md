@@ -38,10 +38,10 @@ JWT authentication
 Persistent session storage
 Role-Based Access Control (RBAC)
 ## Roles
-ADMIN
-CUSTOMER
-UNDERWRITER
-CLAIMS_ADJUSTER
+- ADMIN
+- CUSTOMER
+- UNDERWRITER
+- CLAIMS_ADJUSTER
 
 # Features:
 
