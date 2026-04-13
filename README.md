@@ -79,28 +79,42 @@ Safe JSON parsing
 POST /auth/login
 # Policies
 GET /policies
+
 GET /policies/:id
 # Claims
 GET /claims
+
 POST /claims
+
 PUT /claims/:id
+
 DELETE /claims/:id
 # Amendments
 GET /amendments
+
 POST /amendments
+
 GET /amendments/:id
 # Reductions
 GET /reductions
+
 POST /reductions
+
 GET /reductions/:id
 # Admin
 GET /admin/users
+
 GET /admin/roles
+
 GET /admin/rbac
 ## Architecture
 Frontend: Next.js
+
 State: React Context (Auth)
+
 API Layer: Fetch wrapper
+
 Security: RBAC system
+
 UI: Modular components
 
