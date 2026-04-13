@@ -56,16 +56,16 @@ Topbar with user info
 Section headers
 Empty state and status badge components
 ## Core Modules
-# Policies
+## Policies
 View insurance policies
 Life, Car, Home insurance support
-# Claims
+## Claims
 Create and manage claims
 Claim review workflow
-# Amendments
+## Amendments
 Request policy changes
 Underwriter/Admin review system
-# Reductions
+## Reductions
 Request coverage reductions
 Approval workflow
 ## API Integration
@@ -75,13 +75,13 @@ Automatic token injection
 Error handling system
 Safe JSON parsing
 ## API Endpoints
-# Auth
+## Auth
 POST /auth/login
-# Policies
+## Policies
 GET /policies
 
 GET /policies/:id
-# Claims
+## Claims
 GET /claims
 
 POST /claims
@@ -89,19 +89,19 @@ POST /claims
 PUT /claims/:id
 
 DELETE /claims/:id
-# Amendments
+## Amendments
 GET /amendments
 
 POST /amendments
 
 GET /amendments/:id
-# Reductions
+## Reductions
 GET /reductions
 
 POST /reductions
 
 GET /reductions/:id
-# Admin
+## Admin
 GET /admin/users
 
 GET /admin/roles
